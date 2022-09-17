@@ -59,6 +59,7 @@ h1{
   padding: 10%;
   background: #181818;
   color: #faf3dd;
+ 
 }
 .menu {
   margin: 5%;
@@ -66,10 +67,13 @@ h1{
   justify-content: space-between;
   font-size:2em;
   
-  
 }
 
 .menu>ul{
     list-style-type: none;
     margin: 0 15px 0 -10px;
+}
+
+.about{
+  border-top: 2px solid #181818;
 }
