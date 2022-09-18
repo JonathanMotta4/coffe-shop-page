@@ -26,7 +26,34 @@ nav {
   color: #faf3dd;
   margin: 0 10px;
 }
+.links>a:hover{
+  text-decoration:underline ;
+  text-decoration-thickness:3px ;
+}
 
+.landing{
+  width: 100vw;
+  height: 75vh;
+  font-size: 8vw;
+  text-align: center;
+  align-items: center;  
+}
+.btn{
+  padding: 10px 20px;
+  font-size: 3vw;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background .5s;
+  background-color: #faf3dd;
+}
+.btn:hover{
+  background-color: #181818;
+  color: #faf3dd;
+}
+
+#modal_content{
+  display: none;
+}
 .container {
   width: 80%;
   margin: 10px auto;

@@ -23,41 +23,54 @@
       </nav>
     </header>
     <main>
-      <div class="container">
-        <img src="./assets/main-image.jpg" alt="" />
-        <div class="content">
-          <h1>Passionate about serving quality coffees</h1>
+      <div class="modal">
+        <div class="landing">
+          <h1>Hello! Want a Coffe?</h1>
+          <button
+            class="btn"
+            onclick="openModal('modal_content')"
+            onclick="closeModal('modal_content')"
+          >
+            Yes,Please
+          </button>
         </div>
-      </div>
+        <div id="modal_content">
+          <div class="container">
+            <img src="./assets/main-image.jpg" alt="" />
+            <div class="content">
+              <h1>Passionate about serving quality coffees</h1>
+            </div>
+          </div>
 
-      <div class="container_menu">
-        <h1>Menu</h1>
-        <div class="menu">
-          <ul>
-            <li>Espresso</li>
-            <li>Cappucino</li>
-            <li>French Press</li>
-            <li>Hario V60</li>
-            <li>Latte</li>
-            <li>Cold Brew</li>
-            <li>Mocha</li>
-            <li>Machiato</li>
-          </ul>
-          <ul>
-            <li>00.00</li>
-            <li>00.00</li>
-            <li>00.00</li>
-            <li>00.00</li>
-            <li>00.00</li>
-            <li>00.00</li>
-            <li>00.00</li>
-            <li>00.00</li>
-          </ul>
+          <div class="container_menu">
+            <h1>Menu</h1>
+            <div class="menu">
+              <ul>
+                <li>Espresso</li>
+                <li>Cappucino</li>
+                <li>French Press</li>
+                <li>Hario V60</li>
+                <li>Latte</li>
+                <li>Cold Brew</li>
+                <li>Mocha</li>
+                <li>Machiato</li>
+              </ul>
+              <ul>
+                <li>00.00</li>
+                <li>00.00</li>
+                <li>00.00</li>
+                <li>00.00</li>
+                <li>00.00</li>
+                <li>00.00</li>
+                <li>00.00</li>
+                <li>00.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="container about"></div>
         </div>
-      </div>
-      <div class="container about">
-          
       </div>
     </main>
+    <script src="./js/app.js"></script>
   </body>
 </html>
